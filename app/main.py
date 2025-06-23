@@ -28,6 +28,6 @@ class Person(BaseModel):
 
 @app.post("/predict")
 def predict_income(person: Person):
-    df = pd.DataFrame([person.dict()])
+    df = pd.DataFrame([person.model_dump()])
     prediction = load_model_and_predict(df)
     return {"prediction": "> $50K" if prediction[0] == 1 else "< $50K"}

@@ -1,7 +1,6 @@
 # 🧠 Income Prediction API (FastAPI + XGBoost)
 
-![Python application](https://github.com/GuillermoDiaz89/income-prediction-api/actions/workflows/python-app.yml/badge.svg)
-
+![Python application](https://github.com/GuillermoDiaz89/income-prediction-api/actions/workflows/python-app.yml/badge.svg?branch=master)
 
 This project is a RESTful API that predicts whether a person earns more or less than $50K based on census data. It uses an XGBoost model and is built with FastAPI.
 

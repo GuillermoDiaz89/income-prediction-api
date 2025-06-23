@@ -85,6 +85,30 @@ This project is a RESTful API that predicts whether a person earns more or less 
 
 ---
 
+## 📊 Model Insights
+
+This section contains resources to better understand how the model performs and what influences its predictions.
+
+### 🔍 Feature Importance
+
+You can visualize which input features had the most influence on the prediction outcome:
+
+🖼️ [View Feature Importance Chart](http://127.0.0.1:8000/importance)
+
+### 🧪 Evaluation Metrics
+
+The model was evaluated using standard classification metrics:
+
+📊 [View Model Metrics (JSON)](http://127.0.0.1:8000/metrics)
+
+The JSON includes:
+- Precision
+- Recall
+- F1-Score
+- Support (number of samples)
+
+---
+
 ## 📂 Project Structure
 
 ```

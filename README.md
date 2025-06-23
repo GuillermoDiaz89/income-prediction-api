@@ -108,3 +108,4 @@ This project is a RESTful API that predicts whether a person earns more or less 
 
 Made by **Guillermo Díaz** — DevOps & Python Developer  
 Feel free to fork or contribute 🚀
+
